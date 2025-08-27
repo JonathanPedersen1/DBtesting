@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "mongodb": "^6.19.0",
+    "mongoose": "^8.18.0"
+  },
+  "name": "dbapp",
+  "version": "1.0.0",
+  "description": "A tiny MongoDB project",
+  "main": "index.js",
+  "type": "module",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Jonathan",
+  "license": "ISC"
+}
