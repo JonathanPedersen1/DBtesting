@@ -1,0 +1,19 @@
+.mainbox {
+    border: 1px solid;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nosqlbox, .yessqlbox {
+    border: 1px solid;
+    width: 260px;
+    height: auto;
+    padding: 10px;
+}
+
+.inputfield {
+    display: flex;
+    flex-direction: row;
+}
